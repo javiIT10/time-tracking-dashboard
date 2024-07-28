@@ -7,6 +7,7 @@
 node_modules
 style-guide.md
 design
+package-lock.json
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
