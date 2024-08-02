@@ -738,24 +738,12 @@ video {
   margin-left: 230px;
 }
 
-.mt-0{
-  margin-top: 0px;
-}
-
 .mt-2{
   margin-top: 0.5rem;
 }
 
 .mt-\[12px\]{
   margin-top: 12px;
-}
-
-.mt-\[-10px\]{
-  margin-top: -10px;
-}
-
-.mb-\[80px\]{
-  margin-bottom: 80px;
 }
 
 .box-border{
@@ -859,10 +847,6 @@ video {
 
 .h-\[160px\]{
   height: 160px;
-}
-
-.h-full{
-  height: 100%;
 }
 
 .max-h-\[518px\]{
@@ -1943,11 +1927,6 @@ video {
   background-color: hsl(264 64% 52% / var(--tw-bg-opacity));
 }
 
-.bg-red-600{
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-}
-
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2745,22 +2724,6 @@ video {
     top: 46px;
   }
 
-  .xl\:col-start-1{
-    grid-column-start: 1;
-  }
-
-  .xl\:col-end-2{
-    grid-column-end: 2;
-  }
-
-  .xl\:row-start-1{
-    grid-row-start: 1;
-  }
-
-  .xl\:row-end-3{
-    grid-row-end: 3;
-  }
-
   .xl\:ml-\[160px\]{
     margin-left: 160px;
   }
@@ -2769,20 +2732,12 @@ video {
     margin-top: 35px;
   }
 
-  .xl\:flex{
-    display: flex;
-  }
-
-  .xl\:grid{
-    display: grid;
+  .xl\:mt-\[250px\]{
+    margin-top: 250px;
   }
 
   .xl\:h-\[245px\]{
     height: 245px;
-  }
-
-  .xl\:h-\[354px\]{
-    height: 354px;
   }
 
   .xl\:h-\[355px\]{
@@ -2793,24 +2748,16 @@ video {
     width: 1110px;
   }
 
-  .xl\:w-\[85px\]{
-    width: 85px;
-  }
-
   .xl\:w-\[255px\]{
     width: 255px;
   }
 
-  .xl\:grid-cols-4{
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  .xl\:w-\[85px\]{
+    width: 85px;
   }
 
   .xl\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .xl\:grid-rows-2{
-    grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 
   .xl\:flex-row{
@@ -2829,24 +2776,16 @@ video {
     justify-content: flex-start;
   }
 
-  .xl\:gap-\[41px\]{
-    gap: 41px;
-  }
-
-  .xl\:gap-\[22px\]{
-    gap: 22px;
-  }
-
-  .xl\:gap-\[20px\]{
-    gap: 20px;
-  }
-
   .xl\:gap-\[19px\]{
     gap: 19px;
   }
 
   .xl\:gap-\[30px\]{
     gap: 30px;
+  }
+
+  .xl\:gap-\[41px\]{
+    gap: 41px;
   }
 
   .xl\:py-\[34px\]{
