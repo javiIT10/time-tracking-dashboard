@@ -9,12 +9,12 @@ module.exports = {
       colors: {
         /* ### Primary */
         blue: "hsl(246, 80%, 60%)",
-        "light-red": "hsl(15, 100%, 70%)" /* (work) */,
-        "soft-blue": "hsl(195, 74%, 62%)" /* (play) */,
-        "light-red": "hsl(348, 100%, 68%)" /* (study) */,
-        "lime-green": "hsl(145, 58%, 55%)" /* (exercise) */,
-        violet: "hsl(264, 64%, 52%)" /* (social) */,
-        "soft-orange": "hsl(43, 84%, 65%)" /* (self care) */,
+        "light-red-work": "hsl(15, 100%, 70%)" /* (work) */,
+        "soft-blue-play": "hsl(195, 74%, 62%)" /* (play) */,
+        "light-red-study": "hsl(348, 100%, 68%)" /* (study) */,
+        "lime-green-exercise": "hsl(145, 58%, 55%)" /* (exercise) */,
+        "violet-social": "hsl(264, 64%, 52%)" /* (social) */,
+        "soft-orange-seftcare": "hsl(43, 84%, 65%)" /* (self care) */,
 
         /* ### Neutral */
         "very-dark-blue": "hsl(226, 43%, 10%)",

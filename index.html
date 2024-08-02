@@ -12,11 +12,79 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./src/images/favicon-32x32.png"
     />
 
     <!-- TITLE -->
     <title>Frontend Mentor | Time tracking dashboard</title>
   </head>
-  <body></body>
+  <body class="bg-very-dark-blue font-rubik text-[18px]">
+    <!-- ================================================================ 
+                              SECTION DASHBOARD
+    ======================================================================-->
+    <section
+      class="w-[326px] my-[80px] m-auto xl:w-[1110px] flex flex-col gap-[22px] xl:flex-row xl:gap-[30px]"
+    >
+      <!-- ================================================================ 
+                              ARTICLE LEFT
+    ======================================================================-->
+      <article class="bg-dark-blue rounded-xl xl:w-[255px]">
+        <header
+          class="py-[31px] px-[28px] bg-blue rounded-xl flex items-center gap-[16px] xl:h-[355px] xl:gap-[41px] xl:py-[34px] xl:flex-col xl:items-start"
+        >
+          <img
+            src="src/images/image-jeremy.png"
+            alt="image-jeremy"
+            class="w-[71px] rounded-full border-[3px] border-white xl:w-[85px]"
+          />
+          <div>
+            <h3 class="text-[15px] text-white/50 leading-none">Report for</h3>
+            <h2
+              class="text-[23px] text-white font-light leading-snug xl:text-[37px]"
+            >
+              Jeremy Robson
+            </h2>
+          </div>
+        </header>
+        <main class="px-[34px] py-[22px]">
+          <ul class="flex justify-between xl:flex-col gap-[10px] xl:gap-[19px]">
+            <li>
+              <a
+                id="daily"
+                href=""
+                class="text-desaturated-blue hover:text-pale-blue transition-colors"
+                >Daily</a
+              >
+            </li>
+            <li>
+              <a
+                id="weekly"
+                href=""
+                class="text-pale-blue hover:text-pale-blue transition-colors"
+                >Weekly</a
+              >
+            </li>
+            <li>
+              <a
+                id="montly"
+                href=""
+                class="text-desaturated-blue hover:text-pale-blue transition-colors"
+                >Montly</a
+              >
+            </li>
+          </ul>
+        </main>
+      </article>
+
+      <!-- ================================================================ 
+                              ARTICLES
+    ======================================================================-->
+      <section
+        id="articlesContainer"
+        class="w-full max-h-[518px] grid grid-cols-1 gap-[22px] xl:grid-cols-3 xl:gap-[30px]"
+      ></section>
+    </section>
+
+    <script src="./src/js/app.js"></script>
+  </body>
 </html>
